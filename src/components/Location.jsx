@@ -25,11 +25,11 @@ function Location() {
 
           <MapPin className="mt-6 h-12 w-12 text-pastel-pink sm:h-14 sm:w-14" strokeWidth={1.25} />
 
-          <div className="mt-6 space-y-3 font-invite">
+          <div className="mt-6 space-y-2 font-invite">
             <p className="text-2xl font-semibold leading-tight sm:text-4xl">
               Lokasi Majlis
             </p>
-            <p className="mx-auto max-w-md text-base font-medium leading-7 text-rose-950/80 sm:text-xl sm:leading-8">
+            <p className="mx-auto max-w-md text-base font-medium leading-5 text-rose-950/80 sm:text-xl sm:leading-6">
               Sila tekan butang peta untuk membuka lokasi majlis yang telah dikongsikan.
             </p>
           </div>

@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        invite: ['"Cormorant Garamond"', 'Georgia', 'serif'],
-        corinthia: ['"corinthia"', 'cursive'],
-        rouge: ['"Rouge Script"', 'cursive'],
-        tangerine: ['"Tangerine"', 'cursive'],
+        invite: ['"Tilt Neon"', 'sans-serif'],
+        corinthia: ['"Tilt Neon"', 'sans-serif'],
+        rouge: ['"Tilt Neon"', 'sans-serif'],
+        tangerine: ['"Tilt Neon"', 'sans-serif'],
       }
     },
   },
