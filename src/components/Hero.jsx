@@ -8,7 +8,7 @@ import butterfly5 from "../assets/btf5.gif";
 function Hero() {
   return (
     <section className="scroll-section">
-      <div className="scroll-card floral-card relative flex min-h-[100svh] w-full max-w-[440px] flex-col items-center justify-between px-6 shadow-[0_24px_80px_rgba(57,91,119,0.10)] sm:max-w-[620px] sm:px-11 md:max-w-[760px] md:px-16">
+      <div className="scroll-card floral-card relative flex min-h-[100svh] w-full max-w-[440px] flex-col items-center justify-between overflow-hidden px-6 py-10 shadow-[0_24px_80px_rgba(57,91,119,0.10)] sm:max-w-[620px] sm:px-11 md:max-w-[760px] md:px-16">
 
         <div className="soft-overlay" />
         
@@ -106,22 +106,26 @@ function Hero() {
 
         </div>
 
-        <div className="floral-content hero-inner-spacing flex w-full flex-1 flex-col items-center justify-center text-center text-ink">
+        <div className="relative floral-content hero-inner-spacing flex w-full flex-1 flex-col items-center justify-center text-center text-ink">
 
           <img
             src={bismillahImage}
             alt="Dengan Nama Allah"
-            className="mb-5 w-50 max-w-full opacity-70 sm:w-60"
+            className="mt-12 w-50 mb-12 max-w-full opacity-70 sm:w-60"
           />
 
-          <p className="mt-4 font-invite text-base font-bold uppercase tracking-[0.26em] text-rose-900 sm:text-xl">
-            Majlis Pertunangan
+          <p className="mt-4 mb-8 font-invite text-lg sm:text-xl font-bold uppercase tracking-[0.35em] text-rose-900 leading-relaxed text-center">
+            Majlis Pertunangan <br />
+            & <br />
+            Doa Kesyukuran<br />
           </p>
 
-          <p className="mx-auto mt-4 mb-4 max-w-xl font-invite text-[1.05rem] font-medium leading-7 text-rose-950/80 sm:text-2xl sm:leading-9">
-            Dengan penuh kesyukuran, Encik Saleh bin Abd Hadi dan
-            Puan Jamaliah binti Nordin menjemput anda ke majlis
-            pertunangan puteri kesayangan mereka.
+          <p className="mx-auto mt-4 mb-6 max-w-xl font-invite text-[1.05rem] font-medium leading-7 text-rose-950/80 sm:text-2xl sm:leading-9">
+            Dengan penuh kesyukuran,
+            <br/>Encik Saleh Bin Abd Hadi &
+            Puan Jamaliah Binti Nordin 
+            <br/> menjemput anda ke majlis
+            pertunangan puteri sulung kesayangan mereka.
           </p>
 
           <div className="name-pair mt-12 text-rose-950 sm:mt-10">
@@ -144,13 +148,19 @@ function Hero() {
 
           </div>
 
-          <div className="mt-24">
-            <p className="font-invite text-sm font-semibold tracking-[0.16em] text-rose-800 sm:text-base">
-              #goingFARwithHANA
-            </p>
-          </div>
+          <p className="mx-auto mt-12 max-w-xl font-invite text-[1.05rem] font-normal leading-7 text-rose-950/80 sm:text-2xl sm:leading-9">
+          Sebentuk Cincin Tanda Muafakat,
+            <br/>Dua Bentuk Cincin Tanda Terikat.
+          </p>
 
         </div>
+
+        <div className="relative z-10 pt-10">
+          <p className="font-invite font-semibold tracking-[0.16em] text-[#b71349]">
+            #goingFARwithHANA
+          </p>
+        </div>
+        
       </div>
     </section>
   );
