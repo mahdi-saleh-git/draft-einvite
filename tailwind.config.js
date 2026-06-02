@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        invite: ['"Tilt Neon"', 'sans-serif'],
-        corinthia: ['"Tilt Neon"', 'sans-serif'],
-        rouge: ['"Tilt Neon"', 'sans-serif'],
-        tangerine: ['"Tilt Neon"', 'sans-serif'],
+        invite: ['"Arial Monstera"', 'sans-serif'],
+        corinthia: ['"Arial Monstera"', 'sans-serif'],
+        rouge: ['"Arial Monstera"', 'sans-serif'],
+        tangerine: ['"Arial Monstera"', 'sans-serif'],
       }
     },
   },
