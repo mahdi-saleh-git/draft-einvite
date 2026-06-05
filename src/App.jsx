@@ -30,7 +30,7 @@ function App() {
 
   return (
     <main className="invite-shell min-h-screen scroll-smooth">
-      <audio ref={audioRef} src="/music2.mp3" preload="auto" loop />
+      <audio ref={audioRef} src="/music.mp3" preload="auto" loop />
 
       {!isInviteOpen ? (
         <Opening onOpen={openInvite} />
