@@ -25,7 +25,7 @@ function EventDetails() {
             <div className="event-date-showcase">
 
               <p className="event-section-label font-invite">
-                Majlis Pertunangan
+                Butiran Majlis
               </p>
 
               <div className="event-date-row">
@@ -75,12 +75,14 @@ function EventDetails() {
               </div>
 
               <p className="location-title">
-                Venue Majlis
+                Lokasi Majlis
               </p>
 
               <p className="location-desc">
                 Kehadiran anda amat bermakna buat kami
-                sekeluarga. Tekan butang di bawah untuk
+                sekeluarga. 
+                <br/>
+                Pilih butang di bawah untuk
                 panduan lokasi majlis.
               </p>
 
@@ -115,7 +117,7 @@ function EventDetails() {
         </div>
 
         <div className="relative z-10 pt-10">
-          <p className="font-invite font-semibold tracking-[0.16em]">
+          <p className="font-invite font-semibold tracking-[0.16em] text-yellow-50">
             #goingFARwithHANA
           </p>
         </div>

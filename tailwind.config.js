@@ -2,17 +2,19 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
+
   theme: {
     extend: {
       fontFamily: {
-        invite: ['"Arial Monstera"', 'sans-serif'],
-        corinthia: ['"Arial Monstera"', 'sans-serif'],
-        rouge: ['"Arial Monstera"', 'sans-serif'],
-        tangerine: ['"Arial Monstera"', 'sans-serif'],
-      }
+        invite: ['"Cormorant Upright"', 'serif'],
+        corinthia: ['"Great Vibes"', 'cursive'],
+        rouge: ['"Playfair Display"', 'serif'],
+        tangerine: ['"Parisienne"', 'cursive'],
+      },
     },
   },
+
   plugins: [],
 }

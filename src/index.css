@@ -20,7 +20,7 @@
     min-height: 100%;
     margin: 0;
     color: var(--ink);
-    font-family: "Tilt Neon", sans-serif;
+    font-family: "Cormorant Upright", serif;
     background: #fdf7f8;
     line-height: 0.70rem !important;
   }
@@ -332,7 +332,7 @@
     }
   }
   
-
+ my-0 py-0
   .hero-inner-spacing {
     padding-top: 1rem;
     padding-bottom: 5rem;
@@ -341,42 +341,42 @@
   .name-pair {
     display: grid;
     justify-items: center;
-    gap: 1.18rem;
-    color: #171214 !important;
+    color: #e4fae4fe !important;
   }
 
   .name-pair-text {
     position: relative;
-    font-family: "Tilt Neon", sans-serif;
-    font-size: clamp(2rem, 5vw, 4.5rem);
-    font-weight: 400;
-    line-height: 0.45;
-    color: #171214 !important;
+    font-family: "Playwrite IN", cursive;
+    font-size: clamp(2rem, 3vw, 3rem);
+    font-weight: 350;
+    line-height: 1.7;
+    color: #f9fae4fe !important;
   }
 
   .name-pair-connector {
     display: grid;
+    font-family: "Playwrite IN", cursive;
     width: min(100%, 18rem);
     grid-template-columns: 1fr auto auto auto 1fr;
     align-items: center;
     gap: 0.5rem;
-    color: #171214;
+    color: #e4fae4fe !important;
     margin-block: 0.25rem;
   }
 
   .name-pair-line {
     height: 2px;
-    background: #171214;
+    background: #e4fae4fe;
     opacity: 0.8;
   }
 
   .name-pair-label {
-    font-family: "Tilt Neon", sans-serif;
-    font-size: 55px;
-    font-weight: 400;
+    font-family: "Playwrite IN", cursive;
+    font-size: 45px;
+    font-weight: 300;
     line-height: 0.9;
     letter-spacing: 0.05em;
-    color: #171214;
+    color: #e4fae4fe !important;
   }
 
   .name-pair-ring-right {
@@ -420,9 +420,9 @@
 
 .event-section-label {
   margin: 0;
-  font-size: 1.05rem;
-  font-weight: 700;
-  letter-spacing: 0.38em;
+  font-size: 1.7rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
   line-height: 1.45;
   text-transform: uppercase;
 }
@@ -488,7 +488,7 @@
 }
 
 .event-day-text {
-  font-family: "Tilt Neon", sans-serif;
+  font-family: "Cormorant Upright", serif;
   font-size: 2.5rem;
   font-weight: 700;
   color: #171214;
@@ -498,7 +498,7 @@
 /* BIG DATE */
 
 .event-big-date {
-  font-family: "Tilt Neon", sans-serif;
+  font-family: "Cormorant Upright", serif;
   font-size: clamp(7rem, 16vw, 9rem);
   line-height: 0.72;
   font-weight: 700;
@@ -517,16 +517,11 @@
   display: inline-flex;
   align-items: center;
   gap: 0.7rem;
-
   border-radius: 999px;
-
   background: linear-gradient(135deg, #b71349, #cf4b78);
-
   color: #fff;
-
   padding: 0.9rem 1.5rem;
-
-  font-size: 1.05rem;
+  font-size: 1.35rem;
   font-weight: 700;
 
   box-shadow: 0 15px 35px rgba(183, 19, 73, 0.28);
@@ -613,7 +608,7 @@
   margin-top: 1rem;
   margin-bottom: 0;
 
-  font-family: "Tilt Neon", sans-serif;
+  font-family: "Cormorant Upright", serif;
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.05;
@@ -625,7 +620,7 @@
   margin-bottom: 0;
   max-width: 420px;
 
-  font-size: 1rem;
+  font-size: 1.32rem;
   line-height: 1.55;
 
   color: rgba(18, 6, 10, 0.75);
@@ -651,7 +646,7 @@
   border-radius: 999px;
   padding: 1rem 1.2rem;
 
-  font-size: 0.98rem;
+  font-size: 1.35rem;
   font-weight: 700;
 
   transition: 0.25s ease;
@@ -686,7 +681,7 @@
 }
 
 .event-save-date {
-  font-family: "Tilt Neon", sans-serif;
+  font-family: "Cormorant Upright", serif;
   font-size: 2rem;
   font-style: italic;
   color: rgba(127, 29, 61, 0.78);
@@ -713,12 +708,12 @@
 }
 
 .event-date-side span {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   font-weight: 600;
   letter-spacing: 0.12em;
   line-height: 1.35;
   text-transform: uppercase;
-  color: #9c5b39;
+  color: #d6f0d9;
 }
 
 .event-side-line {
@@ -729,10 +724,10 @@
 
 .event-year {
   margin: 0;
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.55rem;
+  font-weight: 500;
   line-height: 1.35;
-  color: rgba(127, 29, 61, 0.72);
+  color: rgba(245,239,231,0.72);
 }
 
 .event-hijri-date {
@@ -741,7 +736,7 @@
   font-size: 1rem;
   letter-spacing: 0.08em;
   line-height: 1.45;
-  color: rgba(127, 29, 61, 0.72);
+  color: rgba(245,239,231,0.72);
 }
 
 .event-location-block {
@@ -770,8 +765,8 @@
   }
 
   .event-section-label {
-    font-size: 0.92rem;
-    letter-spacing: 0.3em;
+    font-size: 1.7rem;
+    letter-spacing: 0.15em;
   }
 
   .event-date-row {
@@ -783,7 +778,7 @@
   }
 
   .event-date-side span {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 
   .event-day-text {
@@ -836,13 +831,8 @@ body {
 /* gradient text fix */
 
 .name-pair-text {
-  background:  rgb(36, 34, 34);
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-
-  line-height: 0.9;
+  color: #fafaf1fe !important;
+  line-height: 1.4;
   text-align: center;
 }
 
@@ -894,7 +884,7 @@ body {
   }
 
   .event-date-side span {
-    font-size: 0.95rem;
+    font-size: 1.7rem;
     letter-spacing: 0.12em;
   }
 
@@ -908,7 +898,7 @@ body {
   }
 
   .location-desc {
-    font-size: 0.92rem;
+    font-size: 1.32rem;
     line-height: 1.6;
   }
 
@@ -921,7 +911,7 @@ body {
   .location-btn-secondary {
     width: 100%;
     padding: 0.9rem 1rem;
-    font-size: 0.92rem;
+    font-size: 1.35rem;
   }
 }
 
@@ -957,9 +947,9 @@ body {
 
 .event-section-label {
   margin: 0;
-  font-size: 1.05rem;
-  font-weight: 700;
-  letter-spacing: 0.38em;
+  font-size: 1.7rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
   line-height: 1.45;
   text-transform: uppercase;
 
@@ -1032,7 +1022,7 @@ body {
 }
 
 .event-day-text {
-  font-family: "Tilt Neon", sans-serif;
+  font-family: "Cormorant Upright", serif;
   font-size: 2.5rem;
   font-weight: 700;
 
@@ -1045,7 +1035,7 @@ body {
 /* BIG DATE */
 
 .event-big-date {
-  font-family: "Tilt Neon", sans-serif;
+  font-family: "Cormorant Upright", serif;
 
   font-size: clamp(7rem, 16vw, 9rem);
 
@@ -1085,7 +1075,7 @@ body {
 
   padding: 0.9rem 1.5rem;
 
-  font-size: 1.05rem;
+  font-size: 1.35rem;
   font-weight: 700;
 
   box-shadow:
@@ -1187,7 +1177,7 @@ body {
   margin-top: 1rem;
   margin-bottom: 0;
 
-  font-family: "Tilt Neon", sans-serif;
+  font-family: "Cormorant Upright", serif;
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.05;
@@ -1200,7 +1190,7 @@ body {
   margin-bottom: 0;
   max-width: 420px;
 
-  font-size: 1rem;
+  font-size: 1.32rem;
   line-height: 1.55;
 
   color: rgba(245,239,231,0.72);
@@ -1231,7 +1221,7 @@ body {
 
   padding: 1rem 1.2rem;
 
-  font-size: 0.98rem;
+  font-size: 1.35rem;
   font-weight: 700;
 
   transition: 0.25s ease;
@@ -1276,7 +1266,7 @@ body {
 }
 
 .event-save-date {
-  font-family: "Tilt Neon", sans-serif;
+  font-family: "Cormorant Upright", serif;
   font-size: 2rem;
   font-style: italic;
 
@@ -1309,7 +1299,7 @@ body {
 }
 
 .event-date-side span {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   font-weight: 600;
 
   letter-spacing: 0.12em;
@@ -1317,7 +1307,7 @@ body {
 
   text-transform: uppercase;
 
-  color: #8aa08d;
+  color: #d6f0d9;
 }
 
 .event-side-line {
@@ -1329,9 +1319,8 @@ body {
 
 .event-year {
   margin: 0;
-
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.55rem;
+  font-weight: 500;
   line-height: 1.35;
 
   color: rgba(245,239,231,0.72);
@@ -1375,8 +1364,8 @@ body {
   }
 
   .event-section-label {
-    font-size: 0.92rem;
-    letter-spacing: 0.3em;
+    font-size: 1.7rem;
+    letter-spacing: 0.15em;
   }
 
   .event-date-row {
@@ -1388,7 +1377,7 @@ body {
   }
 
   .event-date-side span {
-    font-size: 1.1rem;
+    font-size: 1.7rem;
   }
 
   .event-day-text {
