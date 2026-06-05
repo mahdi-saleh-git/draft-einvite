@@ -58,7 +58,7 @@ function EventDetails() {
 
               <div className="event-time-pill">
                 <Clock className="h-5 w-5" />
-                <span>11:00 AM • 4:00 PM</span>
+                <span>11:45 AM • 2:30 PM</span>
               </div>
 
             </div>
