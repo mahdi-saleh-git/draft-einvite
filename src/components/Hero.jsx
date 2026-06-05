@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <section className="scroll-section">
-      <div className="scroll-card floral-card relative flex w-full max-w-[390px] sm:max-w-[620px] md:max-w-[760px] flex-col items-center justify-between overflow-hidden px-6 py-10 shadow-[0_24px_80px_rgba(57,91,119,0.10)] sm:max-w-[620px] sm:px-11 md:max-w-[760px] md:px-16">
+      <div className="scroll-card floral-card relative flex w-full max-w-[390px] flex-col items-center justify-between overflow-hidden px-6 py-10 shadow-[0_24px_80px_rgba(57,91,119,0.10)] sm:max-w-[620px] sm:px-11 md:max-w-[760px] md:px-16">
 
         <div className="soft-overlay" />
         
